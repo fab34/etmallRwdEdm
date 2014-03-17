@@ -30,6 +30,7 @@ td[class="quoteText"] { font-size:2.2rem !important;/}
 .button{font-size:1.6em;}
 .priceTb{}
 table[class="table1:2"] .priceTb{float:right !important;}
+table[class="table1:2"] .button{float:right !important;}
 table[class="space5"] {display:none;}
 @media only screen and (max-width: 640px) {
 body { width: auto !important; }
@@ -43,13 +44,14 @@ td[class="description"] { width: 380px !important; text-align: center!important;
 img[class="header_img"] { width: 450px !important; height: 120px !important; }
 td[class="quoteText"] { font-size:2rem !important;/* padding-top: 15px !important;*/ }
 .column {width:56%!important;padding-left:20px !important;}
+table[class="table1:2"] .column {height:5em !important;}
 .columnNoPad { width:56% !important;font-size:1.6rem;line-height:2.2rem;}
 table[class="col_img"] { width: 43% !important; height: auto !important; }
 table[class="table2:2"] .col_img { width: 50% !important; height: auto !important; }
 table[class="table1:2"] { width: 100% !important; height: auto !important; }
 td[class="table1:2"] { width: 100% !important; height: auto !important; }
 table[class="table1:2"] .priceTb{width:auto !important;height:auto !important;}
-table[class="table1:2"] .button{}
+table[class="table1:2"] .button{float:right;clear:both;}
 table[class="table2:2"] { width: 47% !important; height: auto !important; }
 td[class="table2:2"] { width: 95% !important; height: auto !important; }
 table[class="space"] { width: 0; display: none !important; }
@@ -62,6 +64,7 @@ table[class="social"] { width: 146px !important; }
 table[class="table680"] tr.priceBx {line-height:4em !important;}
 table[class="priceTb"] {width:130px !important;}
 table[class="button"] {font-size:1.3em;width:80px !important;}
+table[class="table1:2"] .button {font-size:1.3em;width:95% !important;}
 table[class="gallery"] { width: 32% !important; }
 
 }
@@ -84,7 +87,9 @@ td[class="quoteText"] { font-size:1.8rem !important;line-height:2.2rem!important
 .columnNoPad { width: 100%!important;font-size:2rem;line-height:2.4rem;}
 table[class="col_img"] { width: 100% !important; height: auto !important; margin-bottom: 10px!important; float: none !important; }
 table[class="table1:2"] .col_img{ width:100% !important;}
-table[class="table1:2"] .priceTb{ width:auto !important; height: auto !important;}
+table[class="table1:2"] .priceTb{ width:50% !important; height: auto !important;float:none !important;}
+table[class="table1:2"] .column {height:auto !important;}
+table[class="button"] {font-size:1.3em;width:100% !important;}
 table[class="table2:2"] { width: 250px !important; float: none !important; }
 td[class="table2:2"] { width: 96% !important; height: auto !important; }
 img[class="img1"] { width: 100% !important; height: auto !important;}
@@ -93,6 +98,7 @@ table[class="space2"] { width:100% !important; }
 table[class="space3"] { display: none !important; }
 table[class="gallery"] { width: 75% !important; float: none !important; }
 td[class="qrCode"] img{width:250px;height:250px;}
+table[class="table1:2"] .button {width:100% !important;}
 }
 
 </style>
@@ -138,7 +144,7 @@ td[class="qrCode"] img{width:250px;height:250px;}
                     </table>
                 </td>
             </tr>
-        </table>
+            </table>
         	<!--End Header Logo-->
         
         	<!--menu 680-->
@@ -401,7 +407,7 @@ td[class="qrCode"] img{width:250px;height:250px;}
             <!--End Title Bar-->
         	
             <!--2:2 Panel-->		
-          <table class="table680" width="680" border="0" align="center" cellpadding="0" cellspacing="0">
+            <table class="table680" width="680" border="0" align="center" cellpadding="0" cellspacing="0">
             	<tr>
                 	<td height="20" bgcolor="#ffffff"></td>
               	</tr>
@@ -610,7 +616,7 @@ td[class="qrCode"] img{width:250px;height:250px;}
                                                     </tr>
                                                     <tr class="priceBx">
                                         				<td>
-                                           					<table class="priceTb" width="" border="0" cellspacing="0" cellpadding="0" align="left">
+                                           					<table class="priceTb" width="" border="0" cellspacing="0" cellpadding="0">
                                                     			<tr>
                                                                     <td width="48" style="vertical-align:bottom;">
                                                                         <span>東森價$</span>
@@ -621,7 +627,7 @@ td[class="qrCode"] img{width:250px;height:250px;}
                                                                 </tr>
                                                             </table>
                                                             <!--buyNow Button-->
-                                                            <table class="button" width="100px" height="36" border="0" align="right" cellpadding="0" cellspacing="0" bgcolor="#e00d13">
+                                                            <table class="button" width="100px" height="36" border="0"  cellpadding="0" cellspacing="0" bgcolor="#e00d13">
                                                                 <tr>
                                                                     <td align="center">
                                                                         <a href="#" style="color:#ffffff;text-decoration:none;">立即搶購</a>
@@ -694,7 +700,7 @@ td[class="qrCode"] img{width:250px;height:250px;}
                                                     </tr>
                                                     <tr class="priceBx">
                                         				<td>
-                                           					<table class="priceTb" width="" border="0" cellspacing="0" cellpadding="0" align="left">
+                                           					<table class="priceTb" width="" border="0" cellspacing="0" cellpadding="0">
                                                     			<tr>
                                                                     <td width="48" style="vertical-align:bottom;">
                                                                         <span>東森價$</span>
@@ -705,7 +711,7 @@ td[class="qrCode"] img{width:250px;height:250px;}
                                                                 </tr>
                                                             </table>
                                                 <!--buyNow Button-->
-                                            	<table class="button" width="100px" height="36" border="0" align="right" cellpadding="0" cellspacing="0" bgcolor="#e00d13">
+                                            	<table class="button" width="100px" height="36" border="0" cellpadding="0" cellspacing="0" bgcolor="#e00d13">
                                                     <tr>
                                                         <td align="center">
                                                             <a href="#" style="color:#ffffff;text-decoration:none;">立即搶購</a>
@@ -772,214 +778,7 @@ td[class="qrCode"] img{width:250px;height:250px;}
             </table>
             <!--End 1:3 Panel Right Text-->
             
-            <!--1:3 Panel Right Text-->		
-            <table class="table680" width="680" border="0" align="center" cellpadding="0" cellspacing="0">
-                <tr>
-                	<td align="center" valign="top" bgcolor="#ffffff">
-                    
-                    	<!--space3-->
-                        <table width="13" border="0" align="left" cellpadding="0" cellspacing="0" class="space3">
-                            <tr>
-                                <td style="">&nbsp;</td>
-                            </tr>
-                        </table>
-                        <!--End Space3-->
-                        
-                    	<table class="table550" width="314" border="0" align="left" cellpadding="0" cellspacing="0">
-                            <tr>
-                                <td align="center" valign="top">
-                                    <!--1:2 Left Panel-->
-                                    <table class="table1:2" width="314" border="0" align="left" cellpadding="0" cellspacing="0">
-                                        <tr>
-                                            <td align="left" valign="top">
-                                            
-                                                <table width="146" border="0" align="left" cellpadding="0" cellspacing="0" bgcolor="#ffffff" class="col_img">
-                                                    <!--146x146 image-->
-                                                    <td width="146" height="146" align="center" bgcolor="#cccccc">
-                                                        <img class="img1" src="images/101.jpg" width="146" height="" alt="146x146">
-                                                    </td>
-                                                    <!--End 146x146 image-->
-                                                </table>
-                                                
-                                                <!--space-->
-                                                <table class="space" border="0" cellpadding="0" cellspacing="0" align="left">
-                                                    <tr>
-                                                        <td style="padding-left:10px;">&nbsp;</td>
-                                                    </tr>
-                                                </table>
-                                                <!--End space-->
-                                                    
-                                                <table width="155" border="0" align="right" cellpadding="0" cellspacing="0" class="column">  
-                                                    <!--Content Text-->
-                                                    <tr>
-                                                        <td valign="top" class="column" style="font-size:1.3em;color:#000000;line-height:1.3em;height:3.9em">
-                                                            五星韓國玩樂天住樂天南怡島遊船幻多奇秀五
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td height="8"></td>
-                                                    </tr>
-                                                    <tr class="priceBx">
-                                        				<td>
-                                           					<table class="priceTb" width="" border="0" cellspacing="0" cellpadding="0" align="left">
-                                                    			<tr>
-                                                                    <td width="48" style="vertical-align:bottom;">
-                                                                        <span>東森價$</span>
-                                                                    </td>
-                                                                    <td style="color:#c90e12;">
-                                                                        <b style="font-size:2.2em;line-height:1.2em;">5,700</b>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                <!--buyNow Button-->
-                                            	<table class="button" width="100px" height="36" border="0" align="right" cellpadding="0" cellspacing="0" bgcolor="#e00d13">
-                                                    <tr>
-                                                        <td align="center">
-                                                            <a href="#" style="color:#ffffff;text-decoration:none;">立即搶購</a>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                                <!--End buyNow Button-->
-                                        </td>
-                                            
-                                      </tr>
-                                                    <!--
-                                                    <tr>
-                                                    	<td align="right">
-                                                            <table class="priceTb" width="" border="0" cellspacing="0" cellpadding="0" align="right">
-                                                                <tr>
-                                                                    <td width="48" style="vertical-align:bottom;;">
-                                                                        <span>東森價$</span>
-                                                                    </td>
-                                                                    <td style="color:#c90e12;">
-                                                                        <b style="font-size:2.2em;line-height:1.2em;">38,700</b>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                      <td height="8"></td>
-                                                    </tr>
-                                                    <tr>
-                                                    	<td valign="bottom">
-                                                            
-                                                            <table class="button" width="100px" height="36" border="0" align="right" cellpadding="0" cellspacing="0" bgcolor="#e00d13">
-                                                                <tr>
-                                                                    <td align="center">
-                                                                        <a href="#" style="color:#ffffff;text-decoration:none;">立即搶購</a>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                           
-                                                        </td>
-                                                  </tr>
-                                                  -->
-                                                </table>
-                                                
-                                            </td>
-                                        </tr>
-                                    </table>
-                                    <!--End 1:2 Left Panel-->
-                                </td>
-                            </tr>
-                        </table>
-                        
-                        <!--space4-->
-                    	<table width="26" border="0" align="left" cellpadding="0" cellspacing="0" class="space4">
-                            <tr>
-                              <td>&nbsp;</td>
-                          </tr>
-                        </table>
-                        <!--End Space4-->
-                        
-                        
-                        <!--space5-->
-                      	<table width="13" border="0" align="left" cellpadding="0" cellspacing="0" class="space5">
-                            <tr>
-                                <td style="">&nbsp;</td>
-                            </tr>
-                        </table>
-                        <!--End Space5-->
-                        
-                        <table class="table550" width="314" border="0" align="left" cellpadding="0" cellspacing="0">
-                            <tr>
-                                <td align="center" valign="top">
-                                    <!--1:2 Left Panel-->
-                                    <table class="table1:2" width="314" border="0" align="left" cellpadding="0" cellspacing="0">
-                                        <tr>
-                                            <td align="left" valign="top">
-                                                
-                                                <table width="146" border="0" align="left" cellpadding="0" cellspacing="0" bgcolor="#ffffff" class="col_img">
-                                                    <!--146x146 image-->
-                                                    <td width="146" height="146" align="center" bgcolor="#cccccc">
-                                                        <img class="img1" src="images/102.jpg" width="146" height="" alt="146x146">
-                                                    </td>
-                                                    <!--End 146x146 image-->
-                                                </table>
-                                                
-                                                <!--space-->
-                                                <table class="space" border="0" cellpadding="0" cellspacing="0" align="left">
-                                                    <tr>
-                                                        <td style="padding-left:10px;">&nbsp;</td>
-                                                    </tr>
-                                                </table>
-                                                <!--End space-->
-                                                    
-                                                <table width="155" border="0" align="right" cellpadding="0" cellspacing="0" class="column">  
-                                                    <!--Content Text-->
-                                                    <tr>
-                                                        <td valign="top" class="column" style="font-size:1.3em;color:#000000;line-height:1.3em;height:3.9em">
-                                                            五星韓國玩樂天住樂天南怡島遊船幻多奇秀五
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td height="8"></td>
-                                                    </tr>
-                                                    <tr class="priceBx">
-                                        				<td>
-                                           					<table class="priceTb" width="" border="0" cellspacing="0" cellpadding="0" align="left">
-                                                    			<tr>
-                                                                    <td width="48" style="vertical-align:bottom;">
-                                                                        <span>東森價$</span>
-                                                                    </td>
-                                                                    <td style="color:#c90e12;">
-                                                                        <b style="font-size:2.2em;line-height:1.2em;">5,700</b>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                <!--buyNow Button-->
-                                            	<table class="button" width="100px" height="36" border="0" align="right" cellpadding="0" cellspacing="0" bgcolor="#e00d13">
-                                                    <tr>
-                                                        <td align="center">
-                                                            <a href="#" style="color:#ffffff;text-decoration:none;">立即搶購</a>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                                <!--End buyNow Button-->
-                                        </td>
-                                            
-                                      </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                    <!--End 1:2 Left Panel-->
-                                </td>
-                            </tr>
-                        </table>
-                        
-                        <!--space-->
-                      <table width="13" border="0" align="left" cellpadding="0" cellspacing="0" class="space3">
-                            <tr>
-                                <td>&nbsp;</td>
-                            </tr>
-                        </table>
-                        <!--End Space-->
-                	</td>
-                </tr>
-            </table>
-            <!--End 1:3 Panel Right Text-->
+            
             
             
             
@@ -1027,7 +826,7 @@ td[class="qrCode"] img{width:250px;height:250px;}
                       </table>
                   </td>
                 </tr>
-       	  </table>
+       	    </table>
             <!--End Bottom Info-->
         	
             <!--Seven Guaranteed-->
