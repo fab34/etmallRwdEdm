@@ -30,6 +30,7 @@ td[class="quoteText"] { font-size:2.2rem !important;/}
 .button{font-size:1.6em;}
 .priceTb{}
 table[class="table1:2"] .priceTb{float:right !important;}
+table[class="table1:2"] .button{float:right !important;}
 table[class="space5"] {display:none;}
 @media only screen and (max-width: 640px) {
 body { width: auto !important; }
@@ -43,13 +44,14 @@ td[class="description"] { width: 380px !important; text-align: center!important;
 img[class="header_img"] { width: 450px !important; height: 120px !important; }
 td[class="quoteText"] { font-size:2rem !important;/* padding-top: 15px !important;*/ }
 .column {width:56%!important;padding-left:20px !important;}
+table[class="table1:2"] .column {height:5em !important;}
 .columnNoPad { width:56% !important;font-size:1.6rem;line-height:2.2rem;}
 table[class="col_img"] { width: 43% !important; height: auto !important; }
 table[class="table2:2"] .col_img { width: 50% !important; height: auto !important; }
 table[class="table1:2"] { width: 100% !important; height: auto !important; }
 td[class="table1:2"] { width: 100% !important; height: auto !important; }
 table[class="table1:2"] .priceTb{width:auto !important;height:auto !important;}
-table[class="table1:2"] .button{}
+table[class="table1:2"] .button{float:right;clear:both;}
 table[class="table2:2"] { width: 47% !important; height: auto !important; }
 td[class="table2:2"] { width: 95% !important; height: auto !important; }
 table[class="space"] { width: 0; display: none !important; }
@@ -62,6 +64,7 @@ table[class="social"] { width: 146px !important; }
 table[class="table680"] tr.priceBx {line-height:4em !important;}
 table[class="priceTb"] {width:130px !important;}
 table[class="button"] {font-size:1.3em;width:80px !important;}
+table[class="table1:2"] .button {font-size:1.3em;width:95% !important;}
 table[class="gallery"] { width: 32% !important; }
 
 }
@@ -84,7 +87,9 @@ td[class="quoteText"] { font-size:1.8rem !important;line-height:2.2rem!important
 .columnNoPad { width: 100%!important;font-size:2rem;line-height:2.4rem;}
 table[class="col_img"] { width: 100% !important; height: auto !important; margin-bottom: 10px!important; float: none !important; }
 table[class="table1:2"] .col_img{ width:100% !important;}
-table[class="table1:2"] .priceTb{ width:auto !important; height: auto !important;}
+table[class="table1:2"] .priceTb{ width:50% !important; height: auto !important;float:none !important;}
+table[class="table1:2"] .column {height:auto !important;}
+table[class="button"] {font-size:1.3em;width:100% !important;}
 table[class="table2:2"] { width: 250px !important; float: none !important; }
 td[class="table2:2"] { width: 96% !important; height: auto !important; }
 img[class="img1"] { width: 100% !important; height: auto !important;}
@@ -93,6 +98,7 @@ table[class="space2"] { width:100% !important; }
 table[class="space3"] { display: none !important; }
 table[class="gallery"] { width: 75% !important; float: none !important; }
 td[class="qrCode"] img{width:250px;height:250px;}
+table[class="table1:2"] .button {width:100% !important;}
 }
 
 </style>
@@ -610,7 +616,7 @@ td[class="qrCode"] img{width:250px;height:250px;}
                                                     </tr>
                                                     <tr class="priceBx">
                                         				<td>
-                                           					<table class="priceTb" width="" border="0" cellspacing="0" cellpadding="0" align="left">
+                                           					<table class="priceTb" width="" border="0" cellspacing="0" cellpadding="0">
                                                     			<tr>
                                                                     <td width="48" style="vertical-align:bottom;">
                                                                         <span>東森價$</span>
@@ -621,7 +627,7 @@ td[class="qrCode"] img{width:250px;height:250px;}
                                                                 </tr>
                                                             </table>
                                                             <!--buyNow Button-->
-                                                            <table class="button" width="100px" height="36" border="0" align="right" cellpadding="0" cellspacing="0" bgcolor="#e00d13">
+                                                            <table class="button" width="100px" height="36" border="0"  cellpadding="0" cellspacing="0" bgcolor="#e00d13">
                                                                 <tr>
                                                                     <td align="center">
                                                                         <a href="#" style="color:#ffffff;text-decoration:none;">立即搶購</a>
@@ -694,7 +700,7 @@ td[class="qrCode"] img{width:250px;height:250px;}
                                                     </tr>
                                                     <tr class="priceBx">
                                         				<td>
-                                           					<table class="priceTb" width="" border="0" cellspacing="0" cellpadding="0" align="left">
+                                           					<table class="priceTb" width="" border="0" cellspacing="0" cellpadding="0">
                                                     			<tr>
                                                                     <td width="48" style="vertical-align:bottom;">
                                                                         <span>東森價$</span>
@@ -705,7 +711,7 @@ td[class="qrCode"] img{width:250px;height:250px;}
                                                                 </tr>
                                                             </table>
                                                 <!--buyNow Button-->
-                                            	<table class="button" width="100px" height="36" border="0" align="right" cellpadding="0" cellspacing="0" bgcolor="#e00d13">
+                                            	<table class="button" width="100px" height="36" border="0" cellpadding="0" cellspacing="0" bgcolor="#e00d13">
                                                     <tr>
                                                         <td align="center">
                                                             <a href="#" style="color:#ffffff;text-decoration:none;">立即搶購</a>
@@ -821,7 +827,7 @@ td[class="qrCode"] img{width:250px;height:250px;}
                                                     </tr>
                                                     <tr class="priceBx">
                                         				<td>
-                                           					<table class="priceTb" width="" border="0" cellspacing="0" cellpadding="0" align="left">
+                                           					<table class="priceTb" width="" border="0" cellspacing="0" cellpadding="0">
                                                     			<tr>
                                                                     <td width="48" style="vertical-align:bottom;">
                                                                         <span>東森價$</span>
@@ -832,7 +838,7 @@ td[class="qrCode"] img{width:250px;height:250px;}
                                                                 </tr>
                                                             </table>
                                                 <!--buyNow Button-->
-                                            	<table class="button" width="100px" height="36" border="0" align="right" cellpadding="0" cellspacing="0" bgcolor="#e00d13">
+                                            	<table class="button" width="100px" height="36" border="0" cellpadding="0" cellspacing="0" bgcolor="#e00d13">
                                                     <tr>
                                                         <td align="center">
                                                             <a href="#" style="color:#ffffff;text-decoration:none;">立即搶購</a>
@@ -938,7 +944,7 @@ td[class="qrCode"] img{width:250px;height:250px;}
                                                     </tr>
                                                     <tr class="priceBx">
                                         				<td>
-                                           					<table class="priceTb" width="" border="0" cellspacing="0" cellpadding="0" align="left">
+                                           					<table class="priceTb" width="" border="0" cellspacing="0" cellpadding="0">
                                                     			<tr>
                                                                     <td width="48" style="vertical-align:bottom;">
                                                                         <span>東森價$</span>
@@ -949,7 +955,7 @@ td[class="qrCode"] img{width:250px;height:250px;}
                                                                 </tr>
                                                             </table>
                                                 <!--buyNow Button-->
-                                            	<table class="button" width="100px" height="36" border="0" align="right" cellpadding="0" cellspacing="0" bgcolor="#e00d13">
+                                            	<table class="button" width="100px" height="36" border="0" cellpadding="0" cellspacing="0" bgcolor="#e00d13">
                                                     <tr>
                                                         <td align="center">
                                                             <a href="#" style="color:#ffffff;text-decoration:none;">立即搶購</a>
